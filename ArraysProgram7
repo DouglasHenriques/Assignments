@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+
+int main(){
+    int i;
+    int start;
+    double nums[8];
+    printf("Welcome! If you want to input the numbers press 1 if not press 2.\n");
+    scanf("%d", &start);
+    if(start == 1){
+    for(i = 0; i<9; i++){
+        printf("Input the number: ");
+        scanf("%f", &nums[i]);
+        }
+    }
+    else if(start == 2){
+        for(i = 0; i<9; i++){
+            double nums = double rand() % 100 + 1;
+            printf("%.1f ", nums);
+
+
+        }
+
+
+
+    }
+
+
+
+}
